@@ -1,0 +1,30 @@
+.yellow,
+.blue,
+.red {
+    width: 100px;
+    height: 100px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.block div {
+    display: block;
+}
+
+.inline div {
+    display: inline;
+}
+
+.inline-block div {
+    display: inline-block;
+}

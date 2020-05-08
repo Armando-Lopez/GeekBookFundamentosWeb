@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 20vh 60vh 20vh;
+}
+
+header,
+nav,
+main,
+footer {
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #fec1cc;
+    grid-column: span 12;
+}
+nav {
+    background-color: #4a0e80;
+    grid-column: span 3;
+}
+main {
+    background-color: #cb5c5e;
+    grid-column: span 9;
+}
+footer {
+    background-color: #aed8e5;
+    grid-column: span 12;
+}

@@ -1,0 +1,24 @@
+.padre div {
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    padding: 30px;
+}
+.div1 {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    background-color: yellow;
+}
+.div2 {
+    position: relative;
+    right: 150px;
+    bottom: 320px;
+    background-color: blue;
+}
+.div3 {
+    position: relative;
+    left: 180px;
+    bottom: 240px;
+    background-color: red;
+}

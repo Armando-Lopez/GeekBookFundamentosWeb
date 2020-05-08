@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GeekBok ejercicios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Ejercicio 2</h1>
+    <div class="container">
+        <div class="eje">
+            <h3>FLEX WRAP
+
+            </h3>
+            <p>Teniendo una lista de 10 a 15 imágenes de 200x100 px, hacer un bloque flexbox donde las imágenes se
+                distribuyan por el eje horizontal y se vayan apilando uno detrás de otro.</p>
+        </div>
+        <div class="solu">
+            <label for="">Mueve el para ver cómo las images se ajustan al ancho del contenedor:</label>
+            <input type="range" name="change-div-size" id="change-div-size">
+            <div id="img-container" class="img-container">
+                <img src="img/1.png" alt="">
+                <img src="img/2.jpg" alt="">
+                <img src="img/3.png" alt="">
+                <img src="img/1.png" alt="">
+                <img src="img/2.jpg" alt="">
+                <img src="img/3.png" alt="">
+                <img src="img/1.png" alt="">
+                <img src="img/2.jpg" alt="">
+                <img src="img/3.png" alt="">
+                <img src="img/1.png" alt="">
+                <img src="img/2.jpg" alt="">
+                <img src="img/3.png" alt="">
+                <img src="img/1.png" alt="">
+                <img src="img/2.jpg" alt="">
+                <img src="img/3.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const range = document.getElementById('change-div-size');
+        const imgContainer = document.getElementById('img-container');
+
+        function changeWidth(width) {
+            imgContainer.style.width = width + '%';
+        }
+
+        range.addEventListener('input', function () {
+            console.log(range.value)
+            changeWidth(range.value);
+        })
+        range.addEventListener('change', function () {
+            changeWidth(range.value);
+            console.log(range.value)
+        })
+    </script>
+</body>
+
+</html>

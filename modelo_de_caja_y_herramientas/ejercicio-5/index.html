@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GeekBok ejercicios</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .img-container {
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+
+            padding: 10px;
+            border: 5px solid seagreen;
+
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ajustando imagen</h1>
+    <p>Hacer un div de 100x100px usando las propiedades width y height, incluir dentro una imagen de 100x100px y
+        probar:
+        <br>
+        Añadir un padding de 10px
+        <br>
+        Añadir un borde de 5px
+        <br>
+        Cambiar el modelo de caja a border-box y explica qué ha pasado
+        <br>
+        Centrar la caja utilizando el valor auto en los margenes horizontales.
+    </p>
+    <hr>
+    <div class="img-container">
+        <img src="earth.jpg" alt="">
+    </div>
+    <hr>
+    <h2>¿Qué ha pasado?</h2>
+    <p>El tamaño total de la caja se ha calculado teniendo en cuenta los margenes y padding. <br> Esto hizo que espacio
+        interno de la caja ya no sea de 100px sino de 70px <br> y cómo la imagen es de 100px x 100px, ya no cabe dentro
+        de la caja</p>
+</body>
+
+</html>

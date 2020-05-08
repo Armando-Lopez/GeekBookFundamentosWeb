@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekBook ejericios</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+        }
+
+        .popup {
+            width: 60vw;
+            height: 40vh;
+            border: 1px solid gray;
+            border-radius: 20px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            position: absolute;
+            left: 50%;
+            bottom: -42vh;
+            transform: translateX(-50%);
+
+            transition-duration: 5s;
+        }
+
+        .popup p {
+            font-size: 3em;
+        }
+
+        body:hover .popup {
+            bottom: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="popup">
+        <p>Popup :)</p>
+    </div>
+</body>
+
+</html>

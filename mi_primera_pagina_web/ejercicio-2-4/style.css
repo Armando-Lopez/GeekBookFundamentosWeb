@@ -1,0 +1,21 @@
+body {
+    font-size: 18px;
+    font-family: tahoma;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5;
+
+    text-align: justify;
+    padding: 0 1em;
+}
+
+aside {
+    border: 1px solid black;
+}
+
+footer {
+    padding: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}

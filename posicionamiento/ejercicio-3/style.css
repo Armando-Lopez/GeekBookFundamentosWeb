@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    font-size: 1.3em;
+    color: white;
+    background-color: purple;
+
+    z-index: 100;
+}
+nav {
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin: 0 1.3em;
+    display: inline;
+    cursor: pointer;
+}
+main {
+    position: relative;
+    top: 4em;
+    font-size: large;
+    padding: 0 2em;
+    background-color: white;
+}

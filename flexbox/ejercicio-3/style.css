@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+ul.menu {
+    list-style: none;
+    height: 100px;
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: chocolate;
+}
+
+li {
+    font-weight: bold;
+}

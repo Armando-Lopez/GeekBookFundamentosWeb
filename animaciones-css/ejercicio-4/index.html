@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekBook ejercicios</title>
+    <style>
+        body {
+            background-image: url("https://i.pinimg.com/originals/70/d6/b3/70d6b3aaf2857dce05601505b8ca7db0.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        h1 {
+            color: white;
+            font-size: 3em;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 3px black;
+
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            animation-name: entrar;
+            animation-duration: 3s;
+            animation-timing-function: ease-out;
+        }
+
+        @keyframes entrar {
+            0% {
+                top: -100px;
+            }
+
+            90% {
+                top: 52%;
+            }
+
+            100% {
+                top: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hello, World!</h1>
+    </div>
+</body>
+
+</html>
