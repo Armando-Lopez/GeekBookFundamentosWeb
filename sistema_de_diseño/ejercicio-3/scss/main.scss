@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import "core/variables";
+@import "components/input";
+
+.form {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1em;
+    box-shadow: 3px 4px 10px orange;
+}
+.form label {
+    font-size: 1.2em;
+}

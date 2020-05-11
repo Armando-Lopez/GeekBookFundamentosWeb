@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekBook ejercicios</title>
+    <link rel="stylesheet" href="scss/main.css">
+</head>
+
+<body>
+    <div class="form">
+        <label for="">Name</label>
+        ​<input class="validar input border-bottom bor-primary pointer-primary focus-full-primary" type="text"
+            name="name" autocomplete="off" placeholder="Type here..">
+        <span class="message">No valid</span>
+        <label for="">Lastname</label>
+        <input class="validar input border-bottom bor-primary pointer-primary" type="text" name="lastname"
+            autocomplete="off" placeholder="Type here..">
+        <span class="message">No valid</span>
+        <label for="">Email</label>
+        <input class="validar input border-bottom bor-primary pointer-primary" type="emain" name="email"
+            autocomplete="off" placeholder="Type here..">
+        <span class="message">No valid</span>
+        <label for="">Password</label>
+        <input class="validar input border-bottom bor-primary pointer-primary" type="password" name="email"
+            autocomplete="off" placeholder="Type here..">
+        <span class="message">No valid</span>
+        <input id="enviar" class="input bor-primary full-width" type="submit" value="Enviar" autocomplete="off"
+            placeholder="Type here..">
+    </div>
+    <script>
+        document.getElementById("enviar").addEventListener('click', () => {
+            document.querySelectorAll(".validar").forEach((input) => {
+                if (input.value.trim() == "") {
+                    input.classList.add("error");
+                    setTimeout(() => {
+                        input.classList.remove("error");
+                    }, 3000);
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>

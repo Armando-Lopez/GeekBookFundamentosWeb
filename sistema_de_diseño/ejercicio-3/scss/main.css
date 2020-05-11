@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  display: block;
+  padding: 5px 3px;
+  margin-bottom: 20px;
+  transition-duration: 0.1s;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.border {
+  border: 2px solid;
+}
+
+.border-top {
+  border: none;
+  border-top: 2px solid;
+}
+
+.border-bottom {
+  border: none;
+  border-bottom: 2px solid;
+}
+
+.border-left {
+  border: none;
+  border-left: 2px solid;
+}
+
+.border-rigth {
+  border: none;
+  border-right: 2px solid;
+}
+
+.bor-primary {
+  border-color: orange;
+}
+
+.pointer-primary {
+  caret-color: orange;
+}
+
+.focus-full-primary:focus {
+  border: 3px solid orange;
+}
+
+.error {
+  border-bottom: 3px solid red;
+}
+
+.form {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1em;
+  box-shadow: 3px 4px 10px orange;
+}
+
+.form label {
+  font-size: 1.2em;
+}
+/*# sourceMappingURL=main.css.map */
